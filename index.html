@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backbone.js Collection View example</title>
+    <!-- Dependencies -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <script src="http://backbonejs.org/backbone-min.js"></script>
+    <!-- The actual code -->
+    <script src="models.js"></script>
+    <script src="views.js"></script>
+    <script src="routes.js"></script>
+  </head>
+  <body>
+    <h1>Backbone.js Collection View example</h1>
+    
+      <input id="nameId" value=""/>
+      <input id="surnameId" value=""/>
+      <button id="saveUserId">save user</button>
+  
+    <!-- The empty table we'll use as the example -->
+    <table>
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+        </tr>
+      </thead>
+      <!-- We'll attach the PeopleView to this element -->
+      <tbody>
+        
+      </tbody>
+    </table>
+  </body>
+</html>
